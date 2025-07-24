@@ -602,13 +602,13 @@ const templateItems = [
     items: [
       {
         name: 'Overview',
-        link: '/overview',
+        link: '/app/work-orders',
         icon: DesignServicesTwoToneIcon
       },
       {
         name: 'Documentation',
         icon: SupportTwoToneIcon,
-        link: '/docs'
+        link: '/app/work-orders'
       }
     ]
   }

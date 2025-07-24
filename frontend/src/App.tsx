@@ -23,6 +23,16 @@ import { getLicenseValidity } from './slices/license';
 import { useDispatch, useSelector } from './store';
 import { useBrand } from './hooks/useBrand';
 
+// --- PASO 1: IMPORTAR createGlobalStyle ---
+import { createGlobalStyle } from 'styled-components';
+
+// --- PASO 2: DEFINIR EL ESTILO GLOBAL ---
+const GlobalStyle = createGlobalStyle`
+  div[style*="z-index: 100000"] {
+    display: none !important;
+  }
+`;
+
 if (!IS_LOCALHOST && googleTrackingId) ReactGA.initialize(googleTrackingId);
 function App() {
   const content = useRoutes(router);
@@ -83,6 +93,9 @@ function App() {
 
   return (
     <ThemeProvider>
+      {/* --- PASO 3: AÑADIR EL COMPONENTE DE ESTILO AQUÍ --- */}
+      <GlobalStyle />
+
       <LocalizationProvider dateAdapter={AdapterDateFns}>
         <SnackbarProvider
           maxSnack={6}
