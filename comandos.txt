@@ -1,0 +1,4 @@
+en la carpeta frontend
+	npm install styled-components @types/styled-components
+en la carpeta raiz
+	docker-compose up -d --build
