@@ -1,5 +1,5 @@
 <p align="center"><img src="images/cabalgata-logo-300x159.png" width="80"></p>
-<h1 align="center">Atlas CMMS</h1>
+<h1 align="center">CABALGATA CMMS</h1>
 
 [Atlas CMMS](https://github.com/grashjs/cmms) is a powerful, self-hosted maintenance management system designed for both
 web and mobile platforms using Docker. It simplifies and automates the management of maintenance activities, making it
