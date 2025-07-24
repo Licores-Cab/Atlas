@@ -83,7 +83,7 @@ function SidebarTopSection() {
     try {
       handleClose();
       await logout();
-      navigate('/');
+      navigate('/app/work-orders');
     } catch (err) {
       console.error(err);
     }

@@ -44,7 +44,7 @@ function SidebarFooter() {
   const handleLogout = async (): Promise<void> => {
     try {
       await logout();
-      navigate('/');
+      navigate('/app/work-orders');
     } catch (err) {
       console.error(err);
     }

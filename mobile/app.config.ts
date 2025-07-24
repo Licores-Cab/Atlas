@@ -5,12 +5,12 @@ const apiUrl = process.env.API_URL;
 
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
-  name: 'Atlas CMMS',
-  slug: 'atlas-cmms',
+  name: 'cabalgata CMMS',
+  slug: 'cabalgata-cmms',
   version: '1.0.28',
   orientation: 'portrait',
   icon: './assets/images/icon.png',
-  scheme: 'atlascmms',
+  scheme: 'cabalgata-cmms',
   userInterfaceStyle: 'automatic',
   notification: {
     icon: './assets/images/notification.png'

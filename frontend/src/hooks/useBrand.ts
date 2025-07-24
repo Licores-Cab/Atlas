@@ -16,10 +16,10 @@ interface BrandConfig extends BrandRawConfig {
 }
 export function useBrand(): BrandConfig {
   const defaultBrand: Omit<BrandConfig, 'logo'> = {
-    name: 'Atlas CMMS',
-    shortName: 'Atlas',
-    website: 'https://www.atlas-cmms.com',
-    mail: 'contact@atlas-cmms.com',
+    name: 'CABALGATA CMMS',
+    shortName: 'Cabalgata',
+    website: 'https://www.cabalgata.com.ar',
+    mail: 'soporte@cabalgata.com.ar',
     phone: '+212 6 30 69 00 50',
     addressStreet: '410, Boulevard Zerktouni, Hamad, №1',
     addressCity: 'Casablanca-Morocco 20040'
